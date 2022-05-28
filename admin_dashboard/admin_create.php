@@ -40,8 +40,8 @@ setTimeout(() => {
 
     <title>Document</title>
 </head>
-<body style="background-color: #8fc4b7;">
-<section class="h-100 h-custom" style="background-color: #8fc4b7;">
+<body >
+<section class="h-100 h-custom" >
   <div class="container py-5 h-100">
       
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -60,7 +60,7 @@ setTimeout(() => {
               </div>
               
               
-          <input type="submit" value="Submit" name="submit" class="btn btn-success btn-lg mb-1">
+          <input type="submit" value="Submit" name="submit"  style="  background-color: #570A57;" class="btn btn-success btn-lg mb-1">
 
             </form>
             

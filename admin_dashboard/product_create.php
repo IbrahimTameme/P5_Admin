@@ -6,6 +6,7 @@ $product_name = $_POST["product_name"];
 $Product_price = $_POST["Product_price"];
 $Product_color = $_POST["Product_color"];
 $Product_size = $_POST['Product_size'];
+$Product_size = $_POST['Product_image'];
 $product_description = $_POST['product_description'];
 // $product_image = $_POST['product_image'];
 
@@ -46,8 +47,8 @@ setTimeout(() => {
 
     <title>Document</title>
 </head>
-<body style="background-color: #8fc4b7;">
-<section class="h-100 h-custom" style="background-color: #8fc4b7;">
+<body >
+<section class="h-100 h-custom" >
   <div class="container py-5 h-100">
       
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -56,7 +57,7 @@ setTimeout(() => {
             
           
           <div class="card-body p-4 p-md-5">
-            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Info</h3>
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Create New Product</h3>
 
             <form class="px-md-2" action="" method="post">
 
@@ -77,6 +78,10 @@ setTimeout(() => {
                 <label class="form-label"  for="form3Example1q">Product size</label>
               </div>
               <div class="form-outline mb-4">
+                <input type="text" id="form3Example1q" name="Product_image" class="form-control" />
+                <label class="form-label"  for="form3Example1q">Product Image</label>
+              </div>
+              <div class="form-outline mb-4">
                 <input type="text" id="form3Example1q" name="product_description" class="form-control" />
                 <label class="form-label"  for="form3Example1q">productdescription</label>
               </div>
@@ -85,7 +90,7 @@ setTimeout(() => {
                 <label class="form-label"  for="form3Example1q">product_image</label>
               </div> -->
               
-              <input type="submit" value="Submit" name="submit" class="btn btn-success btn-lg mb-1">
+              <input type="submit" value="Submit" name="submit" style="  background-color: #570A57;" class="btn btn-success btn-lg mb-1">
 
             </form>
             
